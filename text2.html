@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="black"></div>
+        <div class="white"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+    </div>
+</body>
+<style>
+    .main {
+        width: 900px;
+        height: 600px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        border: 2px black solid;
+    }
+    
+    .black {
+        background: gray;
+    }
+    
+    .white {
+        background: #ffffff;
+    }
+</style>
+
+</html>
