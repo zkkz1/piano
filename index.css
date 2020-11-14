@@ -1,0 +1,90 @@
+body {
+    background: #99CCFF;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 40px 0;
+    text-align: center;
+    font-size: 50px;
+    background-image: -webkit-linear-gradient(90deg, black, blue);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+h2 {
+    text-align: center;
+}
+
+.option {
+    position: relative;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    background: #00a7de;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    transition: height .3s;
+}
+
+.option:hover {
+    background: #00bee7;
+}
+
+.modelchoose {
+    overflow: hidden;
+}
+
+.modelchoose:hover {
+    height: 120px;
+}
+
+.model:hover {
+    color: red;
+}
+
+#helptext {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 999;
+    width: 960px;
+    height: 500px;
+    background: #00a7de;
+    font-size: 18px;
+    border-radius: 8px;
+    line-height: 1.6;
+    padding: 40px;
+}
+
+#help-close {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: color .5s;
+    transition: color .5s;
+    font-size: 30px;
+    color: white;
+    font-weight: 300;
+    transition: all .5s;
+    box-shadow: 0px 0px 0px #007691;
+}
